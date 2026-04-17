@@ -1,11 +1,11 @@
 {
-    "name": "crudbooster/laravel-ai-agent-helper",
+    "name": "fherryfherry/laravel-ai-agent-helper",
     "description": "Laravel AI Agent Helper for auto-login and metadata collection",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "CRUDBooster\\AiAgentHelper\\": "src/"
+            "Fherryfherry\\AiAgentHelper\\": "src/"
         }
     },
     "authors": [
@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "CRUDBooster\\AiAgentHelper\\AiAgentHelperServiceProvider"
+                "Fherryfherry\\AiAgentHelper\\AiAgentHelperServiceProvider"
             ]
         }
     }

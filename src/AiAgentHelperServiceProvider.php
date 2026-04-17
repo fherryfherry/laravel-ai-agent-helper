@@ -1,6 +1,6 @@
 <?php
 
-namespace CRUDBooster\AiAgentHelper;
+namespace Fherryfherry\AiAgentHelper;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
@@ -33,7 +33,7 @@ class AiAgentHelperServiceProvider extends ServiceProvider
     {
         Route::middleware(['web'])
             ->group(function () {
-                Route::get('/agent/auto-login', [\CRUDBooster\AiAgentHelper\Http\Controllers\AiAgentController::class, 'autoLogin'])
+                Route::get('/agent/auto-login', [\Fherryfherry\AiAgentHelper\Http\Controllers\AiAgentController::class, 'autoLogin'])
                     ->name('agent.auto-login');
             });
     }

@@ -1,8 +1,8 @@
 # Laravel AI Agent Helper
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/crudbooster/laravel-ai-agent-helper.svg?style=flat-square)](https://packagist.org/packages/crudbooster/laravel-ai-agent-helper)
-[![Total Downloads](https://img.shields.io/packagist/dt/crudbooster/laravel-ai-agent-helper.svg?style=flat-square)](https://packagist.org/packages/crudbooster/laravel-ai-agent-helper)
-[![License](https://img.shields.io/packagist/l/crudbooster/laravel-ai-agent-helper.svg?style=flat-square)](https://packagist.org/packages/crudbooster/laravel-ai-agent-helper)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/fherryfherry/laravel-ai-agent-helper.svg?style=flat-square)](https://packagist.org/packages/fherryfherry/laravel-ai-agent-helper)
+[![Total Downloads](https://img.shields.io/packagist/dt/fherryfherry/laravel-ai-agent-helper.svg?style=flat-square)](https://packagist.org/packages/fherryfherry/laravel-ai-agent-helper)
+[![License](https://img.shields.io/packagist/l/fherryfherry/laravel-ai-agent-helper.svg?style=flat-square)](https://packagist.org/packages/fherryfherry/laravel-ai-agent-helper)
 
 Laravel AI Agent Helper provides seamless integration for AI Agents to interact with your Laravel application. It includes features for secure auto-login and real-time metadata collection via iframe communication.
 
@@ -18,7 +18,7 @@ Laravel AI Agent Helper provides seamless integration for AI Agents to interact 
 You can install the package via composer:
 
 ```bash
-composer require crudbooster/laravel-ai-agent-helper
+composer require fherryfherry/laravel-ai-agent-helper
 ```
 
 The package will automatically register its service provider.
